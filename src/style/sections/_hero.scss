@@ -1,3 +1,16 @@
+.wrap-bgc{
+  max-width: 100vw;
+  width: 100vw;
+img{
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+   background-position: center;
+   background-size: cover; 
+   position: absolute;
+}
+}
 #hero {
   min-height: 100vh;
   height: 100vh;
@@ -14,9 +27,7 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-  background: url("/src/assets/2.jpg");
-  background-position: center;
-  background-size: cover; 
+ 
  
   z-index: 10000;
   // border-bottom: 5vh solid rgba(grey, .5);
